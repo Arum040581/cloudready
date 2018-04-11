@@ -1,0 +1,8 @@
+applications:
+- path: ./CloudReady.war
+  memory: 1G
+  instances: 1
+  name: Cloud1234
+  host: Cloud1234
+  services:
+  - Dev-DB
